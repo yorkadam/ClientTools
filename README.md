@@ -36,6 +36,7 @@ Additionally, the majority of application and code examples were focused towards
 Official Microsoft documentation is, and continues to be, very poor; and I developed this application to lessen perceived gaps (for me) discovered while researching and learning implementations of the new .net core framework(s).
 
 Topic Summary and Usage Comments
+
 Readers, after reviewing / using this code should have learned the following concepts:
 
 ## HTTP and Web
@@ -53,7 +54,7 @@ How to extract text only and links (URIs) from a web page. How to use the HTMLAg
 
 Key points to be aware of; in this example are; how media types are represented within the new framework as well as request / response handling.  The .net core uses; for web components, a “Fluid API” which is not immediately obvious if your are coming to .net core directly from  standard ASP.NET or older MVC versions.  Additionally, how to properly configure client / server certificate handling use-cases as  you may encounter with invalid certificates or self-signed certificates. 
 
-### Databases and Data
+## Databases and Data
 
 ### Method(s) GetRecords...
 The get record methods include implementations for Microsoft SQL Server, PostgresSQL, and SQLite. The database examples show how to use ADO/SQLClient to implement general and reusable data methods. I avoided usage of “Data Sets / Data Table” in favor of dictionaries because not all of the data set and data table functionality has been converted by Microsoft to .Net core from the legacy libraries.  I did not include MY SQL because the Oracle .net core libraries seem incomplete and not yet implemented completely to correctly follow the same patterns as the other three databases.
@@ -85,24 +86,3 @@ Feel free to add issues for this project on GitHub (or fork it) but keep in mind
 Hopefully, in the future I will have time to turn these examples into a reusable library.
 
 Thanks for taking the time to read this article.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
