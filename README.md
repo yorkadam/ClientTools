@@ -61,7 +61,7 @@ The get record methods include implementations for Microsoft SQL Server, Postgre
 
 ## System and Environment
 
-## Method(s) ReadEnvironmentVariables
+### Method(s) ReadEnvironmentVariables
 This method is only provided as a quick-and-dirty way to show the basic structure of the environment classes and how to read the properties.  I've included the most-common cross-platform-friendly properties but there are may others; much of which, are platform specific.
 
 ### Method(s)  WriteToLogs
